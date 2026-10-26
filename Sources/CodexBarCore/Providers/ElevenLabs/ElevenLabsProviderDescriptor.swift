@@ -22,6 +22,7 @@ public enum ElevenLabsProviderDescriptor {
         widgetColor: ProviderColor(hex: 0xEBEBE6),
         progressColorStyle: .label,
         noDataMessage: "ElevenLabs cost history is not available via API yet.",
+        widgetSelectable: true,
         environmentKey: ElevenLabsSettingsReader.apiKeyEnvironmentKey,
         environmentAliases: ["XI_API_KEY"],
         apiKeyDebugLabel: ElevenLabsSettingsReader.apiKeyEnvironmentKey,
