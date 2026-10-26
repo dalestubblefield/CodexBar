@@ -50,6 +50,8 @@ public struct PluginProviderSpec: Sendable {
     public var pluginResultPolicy = ProviderPluginResultPolicy()
     public var history: ProviderHistoryCapability = .optIn
     public var burnDownWidgetSelectable = true
+    /// Opt-in: also offer this plugin provider in the Usage and Switcher widgets.
+    public var widgetSelectable = false
     public var environmentKey: String = ""
     public var environmentAliases: [String] = []
     public var apiKeyDebugLabel: String?
@@ -102,7 +104,7 @@ public struct PluginProviderSpec: Sendable {
             toggleTitle: self.toggleTitle ?? "Show \(self.displayName) usage",
             cliName: self.id.rawValue,
             defaultEnabled: false,
-            widgetSelectable: false,
+            widgetSelectable: self.widgetSelectable,
             burnDownWidgetSelectable: self.burnDownWidgetSelectable,
             sharePlanLabels: self.sharePlanLabels,
             debugLogUnavailableMessage: self.debugLogUnavailableMessage,
