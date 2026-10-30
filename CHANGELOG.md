@@ -10,6 +10,7 @@
 
 - Menu bar: make neutral pace percentages with font-scaled green/red state bars the default, preserving saved color choices (#4714, #4791). Thanks @arnodirlam!
 - Updates: refresh Sparkle to improve update installation, download progress, and release-note handling.
+- Codex: preserve established local cost coverage and catch-up progress when switching Codex homes (#4770, #4773). Thanks @harjothkhara!
 
 ## 0.82.0 — 2026-10-26
 
@@ -44,6 +45,7 @@
 - Trae CN: distinguish the Usage meter from the Credits details in Visible usage items while preserving hidden choices (#4764, #4780). Thanks @LeoLin990405 and @liuyuplus!
 - WorkBuddy: keep resets on the paid subscription cycle instead of an earlier trial or reward expiry (#4767). Thanks @codertesla!
 - WorkBuddy: use the official mascot instead of the placeholder letter icon (#4768). Thanks @codertesla!
+
 
 ## 0.81.0 — 2026-10-24
 
