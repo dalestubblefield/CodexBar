@@ -27,6 +27,7 @@ struct WidgetProviderChoiceTests {
         "openrouter": "OpenRouter",
         "pi": "Pi",
         "elevenlabs": "ElevenLabs",
+        "kiro": "Kiro",
     ]
 
     @Test

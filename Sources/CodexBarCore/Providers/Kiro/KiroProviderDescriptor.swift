@@ -18,7 +18,7 @@ public enum KiroProviderDescriptor {
                 toggleTitle: "Show Kiro usage",
                 cliName: "kiro",
                 defaultEnabled: false,
-                widgetSelectable: false,
+                widgetSelectable: true,
                 isPrimaryProvider: false,
                 usesAccountFallback: false,
                 debugLogUnavailableMessage: "Kiro debug log not yet implemented",
