@@ -12,6 +12,7 @@
 ### Changed
 
 - Menu bar: make neutral pace percentages with font-scaled green/red state bars the default, preserving saved color choices (#4714, #4791). Thanks @arnodirlam!
+- CLI: malformed or ambiguous arguments now fail with an error instead of being guessed (Commander 0.3.0).
 - Updates: refresh Sparkle to improve update installation, download progress, and release-note handling.
 - Codex: preserve established local cost coverage and catch-up progress when switching Codex homes (#4770, #4773). Thanks @harjothkhara!
 
